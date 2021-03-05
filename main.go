@@ -1,13 +1,14 @@
 package main
 
 import (
-	"./network/bcast"
-	"./network/localip"
-	"./network/peers"
 	"flag"
 	"fmt"
 	"os"
 	"time"
+
+	"github.com/ErlingLie/Network-go/network/bcast"
+	"github.com/ErlingLie/Network-go/network/localip"
+	"github.com/ErlingLie/Network-go/network/peers"
 )
 
 // We define some custom struct to send over the network.
